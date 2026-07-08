@@ -12,7 +12,7 @@ import {
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { DemoBanner } from "@/components/DemoBanner";
-import { supabase } from "@/integrations/supabase/client";
+
 import { toast } from "sonner";
 import {
     AlertDialog,
@@ -25,6 +25,7 @@ import {
     AlertDialogTitle,
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
+import { supabase } from "@/integrations / supabase/client";
 
 type Tab = "dashboard" | "checkout" | "active" | "reports" | "users";
 

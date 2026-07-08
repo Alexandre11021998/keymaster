@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { KeyRecord } from "@/types/keys";
+import { type KeyRecord } from "@/types/keys";
 import * as store from "@/lib/keyStore";
 
 interface KeyState {

@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { supabase } from "@/integrations/supabase/client";
 import type { User } from "@supabase/supabase-js";
+import { supabase } from "@/integrations / supabase/client";
 
 const DEMO_EMAIL = "visitante@sistema.local";
 const DEMO_PASSWORD = "visitante123";

@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { useRegistros, RegistroChave } from "@/hooks/useRegistros";
+import { useRegistros, type RegistroChave } from "@/hooks/useRegistros";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

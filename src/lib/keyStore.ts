@@ -1,4 +1,4 @@
-import { KeyRecord } from "@/types/keys";
+import { type KeyRecord } from "@/types/keys";
 
 // 20 lockers by default
 export const TOTAL_LOCKERS = 200;
